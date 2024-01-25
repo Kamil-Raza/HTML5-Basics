@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header img{
+    width: 50px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.banner{
+    background-color: #1F2937;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 40px 0;
+    align-items: center;
+    
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+}
+
+.hero{
+    color: white;
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.hero h1{
+    font-size: 48px;
+}
+
+.hero button{
+    background-color: #3882F6;
+    display: inline-block;
+    padding: 5px 25px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+}
+
+.hero p{
+    font-size: 18px;
+    font-weight: 100;
+    margin: 20px 0;
+}
+
+
+.category{
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.category h2{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.choose img{
+    height: 140px;
+    width: 90%;
+    border: 2px solid #3882F6;
+}
+
+.choose{
+   display: flex;
+   margin: 0 110px;
+   justify-content: center;
+   gap: 10;
+}
+
+.choose p{
+    width: 90%;
+    text-align: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 50px 0;
+    
+}
+
+.quote h1{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    padding: 30px 0;
+    margin: 0 90px;
+}
+
+.quote-box{
+    margin-right: 200px;
+    text-align: right;
+} 
+
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 90px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    margin: 40px 90px;
+    color: white;
+}
+
+.action button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+footer{
+    background-color: #1F2937;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+}
